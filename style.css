@@ -5,6 +5,40 @@
     text-decoration: none;
     list-style: none;
 }
+:root{
+    --fondo:#1d3557;
+}
+body{
+    background: var(--fondo);
+}
+.container{
+    margin: 0px 60px;   
+}
 .menu-container{
+    margin: 20px 0px;
     display: flex;
+    justify-content: space-between;
+    color: whitesmoke;
+    align-items: center;
+}
+.menu-container p{
+    font-weight: bold;
+    font-size: 25px;
+}
+.Lista{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    color: rgba(245, 245, 245, 0.863);
+    align-items: center;
+}
+.Lista li{
+    cursor: pointer;
+}
+.boton{
+    background-color: whitesmoke;
+    color: black;
+    font-weight: bold;
+    padding: 5px 10px;
+    font-size: 15px;
 }
