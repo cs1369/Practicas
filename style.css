@@ -42,3 +42,80 @@ body{
     padding: 5px 10px;
     font-size: 15px;
 }
+.main-container{
+    margin-top: 80px;
+    display:flex;
+    justify-content: space-between;
+    align-content: center;
+}
+section{
+    display: flex;
+}
+.textos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.textos div{
+    display: flex;
+    width: 700px;
+}
+.otros{
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+h1{
+    font-size: 70px;
+    color: whitesmoke;
+}
+span{
+    font-weight: bold;
+    font-size: 80px;
+}
+    
+.contenedor-imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cuadro1{
+    border:solid 20px #0827af;
+    transform: rotate(45deg);
+    border-radius: 15px;
+    z-index: 2;
+    position: relative;
+    height: 275px;
+    width: 275px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 60px;
+    right: 60px;
+}
+.cuadro2{
+    border:solid 10px white;
+    background: white;
+    transform: rotate(90deg);
+    border-radius: 15px;
+    position: relative;
+    height: 255px;
+    width: 255px;
+}
+img{
+    position:absolute;
+    border-radius: 55px;
+    width: 190px;
+    left: 10px;
+    top: 30px;
+    transform: rotate(-135deg);
+}
+.otros .boton{
+    font-size: 20px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
